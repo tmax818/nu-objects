@@ -1,0 +1,19 @@
+{
+  "name": "tdd-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --require @babel/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
